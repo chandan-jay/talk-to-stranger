@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+    <Speak loop="1" voice="WOMAN">Please hold the line while we connect your call</Speak>
+    <Dial>
+        <Number>918884757407</Number>
+    </Dial>
+</Response>

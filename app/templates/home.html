@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Key In your Number<h2>
+  <div>
+    <form name="input" action="/index" method="GET">
+	    Mobile number: <input type="text" name="dialNumber">
+	    <input type="submit" value="Submit">
+	</form>
+  </div>
+<h6> Regular number must be prefixed with country code but without the ‘+’ sign). For e.g, to dial a number in the USA, the number could be, 15677654321, with '1' for the country code. </h6>
+{% endblock %}
+
